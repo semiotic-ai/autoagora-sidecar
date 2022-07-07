@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "autoagora-sidecar"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     "Alexis Asseman <alexis@semiotic.ai>"
 ]
 description = ""
-license = ""
+license = "Apache-2"
 classifiers = [
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
@@ -27,7 +27,7 @@ black = "^22.1.0"
 isort = "^5.10.1"
 
 [build-system]
-requires = ["poetry_core>=1.2.0b1",]
+requires = ["poetry_core>=1.0.0",]
 build-backend = "poetry.core.masonry.api"
 
 [tool.isort]
